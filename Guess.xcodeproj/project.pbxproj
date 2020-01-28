@@ -35,6 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51484FD623E0A34B00DB5720 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F194E60823208620006AE4FF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51484FD723E0A35900DB5720 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F194E60423208620006AE4FF /* AppDelegate.swift */,
+				F194E60623208620006AE4FF /* ViewController.swift */,
+				F194E616232086FC006AE4FF /* CreditController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51484FD823E0A36300DB5720 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F194E5F823208620006AE4FF = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +79,9 @@
 		F194E60323208620006AE4FF /* Guess */ = {
 			isa = PBXGroup;
 			children = (
-				F194E60423208620006AE4FF /* AppDelegate.swift */,
-				F194E60623208620006AE4FF /* ViewController.swift */,
-				F194E616232086FC006AE4FF /* CreditController.swift */,
-				F194E60823208620006AE4FF /* Main.storyboard */,
+				51484FD823E0A36300DB5720 /* Model */,
+				51484FD623E0A34B00DB5720 /* View */,
+				51484FD723E0A35900DB5720 /* Controller */,
 				F194E60B23208622006AE4FF /* Assets.xcassets */,
 				F194E61023208622006AE4FF /* Info.plist */,
 			);
